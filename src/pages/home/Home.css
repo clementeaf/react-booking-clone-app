@@ -1,0 +1,15 @@
+.homeContainer {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+.homeTitle {
+  width: auto;
+  font-size: 20px;
+  color: #003580;
+  margin: 50px 0px;
+}

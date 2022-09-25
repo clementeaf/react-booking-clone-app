@@ -1,0 +1,139 @@
+.navbar {
+  height: 80px;
+  top: 0px;
+  width: 100%;
+  backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #003580;
+  position: fixed;
+  z-index: 4;
+}
+
+.navContainer {
+  width: 100%;
+  color: #003580;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 150px;
+  gap: 190px;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 400;
+  margin-top: 5px;
+  letter-spacing: 3px;
+}
+
+.Logo-2 {
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.navItems {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger {
+  display: none;
+  margin-left: 30px;
+  font-size: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.burger:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+.navButton-reg {
+  margin-left: 20px;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  color: #003580;
+  font-size: 17px;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid #003580;
+  transition: all 0.5s;
+}
+
+.navButton-reg:hover {
+  color: #fff;
+  background-color: #003580;
+  transition: all 0.5s;
+  border-radius: 20px;
+}
+
+.navButton-log {
+  margin-left: 20px;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  background-color: #003580;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+
+.navButton-log:hover {
+  color: #003580;
+  background-color: #fff;
+  transition: all 0.5s;
+  border-radius: 20px;
+  border: 1px solid #003580ff;
+}
+
+/*  */
+
+.headerList {
+  position: fixed;
+  z-index: 10;
+  top: 100px;
+  right: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  border: 1px solid #003580;
+  border-radius: 30px;
+  background-color: white;
+  gap: 100px;
+  transition: all 1s;
+}
+
+.close {
+  display: none;
+  transition: all 1s;
+}
+
+.headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s;
+}
+.icon {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.icon:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+}

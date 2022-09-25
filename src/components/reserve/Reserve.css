@@ -1,0 +1,90 @@
+.reserve {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.418);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rContainer {
+  background-color: white;
+  border: 1px solid #003580;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+.rClose {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.rItem {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.rInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rTitle {
+  font-weight: 500;
+}
+
+.rDesc {
+  font-weight: 300;
+}
+
+.rMax {
+  font-size: 12px;
+}
+
+.rPrice {
+  font-weight: 500;
+}
+
+.rSelectRooms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 8px;
+    color: gray;
+}
+
+.room {
+    display: flex;
+    flex-direction: column;
+}
+
+.rButton {
+  border: 1px solid #003580;
+  padding: 10px 20px;
+  background-color: white;
+  color: #003580;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 20px;
+  transition: all .5s;
+}
+
+.rButton:hover {
+  transition: all .5s;
+  border: 1px solid #003580;
+  background-color: #003580;
+  color: white;
+  border-radius: 20px;
+}

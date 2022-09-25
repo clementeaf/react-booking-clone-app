@@ -1,0 +1,129 @@
+.listContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+  height: 400px;
+}
+
+.listWrapper {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.listSearch {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #00358077;
+  box-shadow: 0px 0px 25px #00358063;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 110px;
+  left: 20px;
+  height: max-contet;
+  width: 300px;
+}
+
+.label-title {
+  color: #003580;
+}
+
+.lsTitle {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: #003580;
+  margin-bottom: 10px;
+}
+
+.lsItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.lsItem > label {
+  font-size: 12px;
+}
+
+.lsItem > input {
+  height: 30px;
+  border: none;
+  padding: 5px 10px;
+  border: 1px solid #00358057;
+}
+
+.lsItem > input:focus {
+  outline: #003580;
+}
+
+.destination-search {
+  border-radius: 20px;
+}
+.lsItem > span {
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #003580;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.lsOptions {
+  padding: 10px;
+}
+
+.lsOptionItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 12px;
+}
+
+.lsOptionText {
+  color: #003580;
+}
+
+.lsOptionInput {
+  width: 40px;
+  border-radius: 20px;
+  border: 1px solid #00358076;
+  padding: 5px;
+  text-align: center;
+}
+
+.lsOptionInput:focus {
+  outline: #00265a;
+}
+
+.listSearch > button {
+  padding: 10px;
+  background-color: transparent;
+  color: #003580;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #003580;
+  transition: all 0.3s;
+}
+
+.listSearch > button:hover {
+  background-color: #003580;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s;
+  padding: 10px;
+}
+
